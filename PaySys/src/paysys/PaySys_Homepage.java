@@ -403,6 +403,11 @@ public class PaySys_Homepage extends javax.swing.JFrame {
         jButton5.setForeground(new java.awt.Color(0, 0, 102));
         jButton5.setText("Apply for Overtime");
         jButton5.setToolTipText("");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 170, -1));
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -455,6 +460,13 @@ public class PaySys_Homepage extends javax.swing.JFrame {
         login.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        PaySys_Overtime overtime = new PaySys_Overtime();
+        overtime.setVisible(true);
+        overtime.usernametext.setText(jTextField2.getText());
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
