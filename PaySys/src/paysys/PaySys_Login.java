@@ -149,7 +149,7 @@ public class PaySys_Login extends javax.swing.JFrame {
         username = usernamefield.getText();
         password = String.valueOf(passwordfield.getPassword());
 
-        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrolldb", "root", "user123"); Statement statement = con.createStatement()) {
+        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrollsystem_db", "root", ""); Statement statement = con.createStatement()) {
 
             // Prepare a parameterized query for login validation
             String sql = "SELECT * FROM login WHERE username = ? AND password = ?";
