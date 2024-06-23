@@ -71,7 +71,7 @@ public class Leave {
 
     // Method to record leave (assuming logic similar to CSV recording)
     public void recordLeave() throws SQLException, ClassNotFoundException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrolldb", "root", "user123");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrollsystem_db", "root", "");
         PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO `leave` (employeeID, typeOfLeave, startDate, endDate, reason, leaveStatus, credits) VALUES (?, ?, ?, ?, ?, ?, ?)");
         // Set prepared statement parameters (check for null values if necessary)
         preparedStatement.setInt(1, this.employeeID); // Handle null check
