@@ -48,7 +48,7 @@ public class Overtime {
     }
     
     public void recordOvertime() throws SQLException, ClassNotFoundException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrolldb", "root", "user123");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrollsystem_db", "root", "");
         PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO `overtime` (employeeID, overTimeStatus, overtimeDate, overtimeHours) VALUES (?, ?, ?, ?)");
         // Set prepared statement parameters (check for null values if necessary)
         preparedStatement.setInt(1, this.employeeID); // Handle null check
