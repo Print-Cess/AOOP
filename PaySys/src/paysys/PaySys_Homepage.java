@@ -62,6 +62,23 @@ public class PaySys_Homepage extends javax.swing.JFrame {
     jTextField13.setText(String.valueOf(employee.getBasicSal()));
     jTextField14.setText(String.valueOf(employee.getHourlyRate()));
 }
+    public void disableButtons(){
+        ITBTN.setVisible(false);
+        HRBTN.setVisible(false);
+        ACCBTN.setVisible(false);
+    }
+    public void onlyITBTN(){
+        HRBTN.setVisible(false);
+        ACCBTN.setVisible(false);
+    }
+    public void onlyHRBTN(){
+        ITBTN.setVisible(false);
+        ACCBTN.setVisible(false);
+    }
+    public void onlyACCBTN(){
+        ITBTN.setVisible(false);
+        HRBTN.setVisible(false);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
