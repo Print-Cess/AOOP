@@ -111,6 +111,15 @@ public class PaySys_Homepage extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jButton7 = new javax.swing.JButton();
+        HRBTN = new javax.swing.JButton();
+        ACCBTN = new javax.swing.JButton();
+        ITBTN = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -342,7 +351,7 @@ public class PaySys_Homepage extends javax.swing.JFrame {
                 .addGroup(ProfileTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel11)
                     .addComponent(jTextField14))
-                .addContainerGap(79, Short.MAX_VALUE))
+                .addContainerGap(154, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("tab2", ProfileTab);
@@ -357,58 +366,63 @@ public class PaySys_Homepage extends javax.swing.JFrame {
         );
         AttendanceTabLayout.setVerticalGroup(
             AttendanceTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 630, Short.MAX_VALUE)
+            .addGap(0, 705, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("tab3", AttendanceTab);
 
-        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, -30, 610, 660));
+        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, -30, 610, 740));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 0, 102));
         jButton1.setText("Home");
+        jButton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 170, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 170, -1));
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 0, 102));
         jButton2.setText("Profile");
+        jButton2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 170, -1));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, 170, -1));
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(0, 0, 102));
         jButton3.setText("Attendance");
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 170, -1));
+        jButton3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 170, -1));
 
         jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 0, 102));
         jButton4.setText("Apply for Leave");
+        jButton4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 170, -1));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 450, 170, -1));
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton5.setForeground(new java.awt.Color(0, 0, 102));
         jButton5.setText("Apply for Overtime");
         jButton5.setToolTipText("");
+        jButton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 170, -1));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 490, 170, -1));
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton6.setForeground(new java.awt.Color(153, 0, 51));
@@ -418,17 +432,67 @@ public class PaySys_Homepage extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 600, 170, -1));
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 690, 170, -1));
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel12.setText("Management");
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel13.setText("Employee");
+        jLabel13.setToolTipText("");
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, -1, -1));
+
+        jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel14.setText("Payslip");
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 570, -1, -1));
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel15.setText("Overview");
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, -1, -1));
+
+        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel16.setText("Attendance");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, -1));
+
+        jButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton7.setForeground(new java.awt.Color(0, 0, 102));
+        jButton7.setText("Generate Payslip");
+        jButton7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 600, 170, -1));
+
+        HRBTN.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        HRBTN.setForeground(new java.awt.Color(0, 0, 102));
+        HRBTN.setText("Manage Request");
+        HRBTN.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jPanel1.add(HRBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 530, 170, -1));
+
+        ACCBTN.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ACCBTN.setForeground(new java.awt.Color(0, 0, 102));
+        ACCBTN.setText("Manage Payslips");
+        ACCBTN.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jPanel1.add(ACCBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 640, 170, -1));
+
+        ITBTN.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ITBTN.setForeground(new java.awt.Color(0, 0, 102));
+        ITBTN.setText("Manage Employees");
+        ITBTN.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jPanel1.add(ITBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, 170, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 828, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 828, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 638, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 739, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -504,8 +568,11 @@ public class PaySys_Homepage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ACCBTN;
     private javax.swing.JPanel AttendanceTab;
+    private javax.swing.JButton HRBTN;
     private javax.swing.JPanel HomeTab;
+    private javax.swing.JButton ITBTN;
     private javax.swing.JPanel ProfileTab;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
@@ -513,9 +580,15 @@ public class PaySys_Homepage extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
