@@ -146,10 +146,9 @@ public class PaySys_Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void loginbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbtnActionPerformed
-        // TODO add your handling code here:
-       username = usernamefield.getText();
-       password = String.valueOf(passwordfield.getPassword());
-        String Position;
+        username = usernamefield.getText();
+        password = String.valueOf(passwordfield.getPassword());
+
         try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrolldb", "root", "user123"); Statement statement = con.createStatement()) {
 
             // Prepare a parameterized query for login validation
@@ -180,20 +179,47 @@ public class PaySys_Login extends javax.swing.JFrame {
                     employee.setLastName(employeeRS.getString("lastName"));
                     employee.setBirthday(employeeRS.getString("birthday"));  // Assuming a "birthday" column exists
                     employee.setAddress(employeeRS.getString("address"));  // Assuming an "address" column exists
-                    employee.setPhoneNum(employeeRS.getString("phoneNumber"));  
-                    employee.setSSS(employeeRS.getString("sssNumber")); 
-                    employee.setPhilHealth(employeeRS.getString("philHealthnumber"));  
-                    employee.setTIN(employeeRS.getString("tinNumber"));  
-                    employee.setPagIbig(employeeRS.getString("pagIbigNumber"));  
-                    employee.setPosition(employeeRS.getString("position")); 
-                    employee.setBasicSal(employeeRS.getDouble("basicSalary"));  
-                    employee.setGrossSemiMonthly(employeeRS.getDouble("grossSemiMonthlyRate"));  
-                    employee.setHourlyRate(employeeRS.getDouble("hourlyRate"));  
-                   
+                    employee.setPhoneNum(employeeRS.getString("phoneNumber"));
+                    employee.setSSS(employeeRS.getString("sssNumber"));
+                    employee.setPhilHealth(employeeRS.getString("philHealthnumber"));
+                    employee.setTIN(employeeRS.getString("tinNumber"));
+                    employee.setPagIbig(employeeRS.getString("pagIbigNumber"));
+                    employee.setPosition(employeeRS.getString("position"));
+                    employee.setBasicSal(employeeRS.getDouble("basicSalary"));
+                    employee.setGrossSemiMonthly(employeeRS.getDouble("grossSemiMonthlyRate"));
+                    employee.setHourlyRate(employeeRS.getDouble("hourlyRate"));
+
                     PaySys_Homepage HomePage = new PaySys_Homepage();
                     HomePage.setVisible(true);
                     HomePage.setUserName(employee.getFirstName());
                     HomePage.setEmployeeDetails(employee);
+
+                    // Position-based logic
+                    String position = employee.getPosition();
+                    if (position != null) {
+                        switch (position) {
+                            case "HR Manager":
+                            case "HR Team Leader":
+                            case "HR Rank and File":
+                                HomePage.HRBTN.setVisible(true);
+                                HomePage.onlyHRBTN();
+                                break;
+                            case "Payroll Manager":
+                            case "Payroll Team Leader":
+                            case "Payroll Rank and File":
+                                HomePage.ACCBTN.setVisible(true);
+                                HomePage.onlyACCBTN();
+                                break;
+                            case "IT Operations and Systems":
+                                HomePage.ITBTN.setVisible(true);
+                                HomePage.onlyITBTN();
+                                break;
+                            default:
+                                HomePage.disableButtons();
+                                break;
+                        }
+                    }
+
                     JOptionPane.showMessageDialog(this, "Login Successful!");
                     dispose();
                 } else {
