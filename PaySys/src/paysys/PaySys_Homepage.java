@@ -585,11 +585,11 @@ public class PaySys_Homepage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton ACCBTN;
+    javax.swing.JButton ACCBTN;
     private javax.swing.JPanel AttendanceTab;
-    private javax.swing.JButton HRBTN;
+    javax.swing.JButton HRBTN;
     private javax.swing.JPanel HomeTab;
-    private javax.swing.JButton ITBTN;
+    javax.swing.JButton ITBTN;
     private javax.swing.JPanel ProfileTab;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
