@@ -23,7 +23,7 @@ public class PaySys_Homepage extends javax.swing.JFrame {
         scaleImage1();
     }
     private void scaleImage(){
-        ImageIcon icon = new ImageIcon("Banner.png");
+        ImageIcon icon = new ImageIcon("C:/Users/Giann Gernale/Documents/NetBeansProjects/PaySys/Banner.png");
         Image img = icon.getImage();
         Image imgScale = img.getScaledInstance(label.getWidth(), label.getHeight(), Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(imgScale);
@@ -31,7 +31,7 @@ public class PaySys_Homepage extends javax.swing.JFrame {
 
     }
     private void scaleImage1(){
-        ImageIcon icon = new ImageIcon("User.png");
+        ImageIcon icon = new ImageIcon("C:/Users/Giann Gernale/Documents/NetBeansProjects/PaySys/User.png");
         Image img = icon.getImage();
         Image imgScale = img.getScaledInstance(label1.getWidth(), label1.getHeight(), Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(imgScale);
