@@ -12,7 +12,11 @@ public class Leave extends javax.swing.JFrame {
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Creates new form Leave
+=======
+     * Creates new form Test
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
 =======
      * Creates new form Test
 >>>>>>> parent of 63c47a3 (Revert "WSIWYG")
@@ -31,6 +35,7 @@ public class Leave extends javax.swing.JFrame {
     private void initComponents() {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         jPanel1 = new javax.swing.JPanel();
         Name = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
@@ -40,6 +45,8 @@ public class Leave extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 =======
+=======
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         Default = new javax.swing.JPanel();
         Name = new javax.swing.JLabel();
         Overview = new javax.swing.JLabel();
@@ -62,6 +69,9 @@ public class Leave extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         Default.setBackground(new java.awt.Color(255, 255, 255));
+<<<<<<< HEAD
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
+=======
 >>>>>>> parent of 63c47a3 (Revert "WSIWYG")
 
         Name.setBackground(new java.awt.Color(104, 107, 122));
@@ -69,6 +79,7 @@ public class Leave extends javax.swing.JFrame {
         Name.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/profile.png"))); // NOI18N
         Name.setText("Taylor Christian Tayengco");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setText("Leave Application Form");
@@ -98,6 +109,8 @@ public class Leave extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addContainerGap(484, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         Overview.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         Overview.setText("Overview");
 
@@ -211,6 +224,9 @@ public class Leave extends javax.swing.JFrame {
                 .addComponent(Generate)
                 .addGap(18, 18, 18)
                 .addComponent(Exit))
+<<<<<<< HEAD
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
+=======
 >>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         );
 
@@ -219,17 +235,23 @@ public class Leave extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
 <<<<<<< HEAD
+<<<<<<< HEAD
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 =======
+=======
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
             .addComponent(Default, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(Default, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+<<<<<<< HEAD
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
+=======
 >>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         );
 
@@ -263,7 +285,10 @@ public class Leave extends javax.swing.JFrame {
         }
         //</editor-fold>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
@@ -271,6 +296,9 @@ public class Leave extends javax.swing.JFrame {
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
+<<<<<<< HEAD
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
+=======
 >>>>>>> parent of 63c47a3 (Revert "WSIWYG")
 
         /* Create and display the form */
@@ -283,11 +311,14 @@ public class Leave extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JLabel Name;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
 =======
+=======
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
     private javax.swing.JLabel Attendance;
     private javax.swing.JPanel Default;
     private javax.swing.JLabel Employee;
@@ -306,6 +337,9 @@ public class Leave extends javax.swing.JFrame {
     private javax.swing.JLabel Salary;
     private javax.swing.JLabel Time;
     private javax.swing.JLabel jLabel1;
+<<<<<<< HEAD
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
+=======
 >>>>>>> parent of 63c47a3 (Revert "WSIWYG")
     // End of variables declaration//GEN-END:variables
 }

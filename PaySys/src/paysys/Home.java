@@ -8,12 +8,20 @@ package paysys;
  *
  * @author Seirrah
  */
+<<<<<<<< HEAD:PaySys/src/paysys/Home.java
 public class Home extends javax.swing.JFrame {
+========
+public class Overtime extends javax.swing.JFrame {
+>>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
 
     /**
      * Creates new form Test
      */
+<<<<<<<< HEAD:PaySys/src/paysys/Home.java
     public Home() {
+========
+    public Overtime() {
+>>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
         initComponents();
     }
 
@@ -200,6 +208,7 @@ public class Home extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
+<<<<<<<< HEAD:PaySys/src/paysys/Home.java
             java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
@@ -207,20 +216,36 @@ public class Home extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+========
+            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+>>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
         }
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
+<<<<<<<< HEAD:PaySys/src/paysys/Home.java
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
+========
+>>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+<<<<<<<< HEAD:PaySys/src/paysys/Home.java
                 new Home().setVisible(true);
+========
+                new Overtime().setVisible(true);
+>>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
             }
         });
     }
