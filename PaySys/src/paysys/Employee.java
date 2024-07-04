@@ -8,12 +8,12 @@ package paysys;
  *
  * @author Seirrah
  */
-public class EmployeeSalary extends javax.swing.JFrame {
+public class Employee extends javax.swing.JFrame {
 
     /**
      * Creates new form Test
      */
-    public EmployeeSalary() {
+    public Employee() {
         initComponents();
     }
 
@@ -100,7 +100,7 @@ public class EmployeeSalary extends javax.swing.JFrame {
         Exit.setText("Sign Out");
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel1.setText("Employee Salary Details");
+        jLabel1.setText("Employee Dashboard");
 
         javax.swing.GroupLayout DefaultLayout = new javax.swing.GroupLayout(Default);
         Default.setLayout(DefaultLayout);
@@ -126,7 +126,7 @@ public class EmployeeSalary extends javax.swing.JFrame {
                     .addComponent(Exit)
                     .addGroup(DefaultLayout.createSequentialGroup()
                         .addComponent(Name)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 660, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 675, Short.MAX_VALUE)
                         .addComponent(jLabel1)
                         .addGap(16, 16, 16))))
         );
@@ -200,14 +200,26 @@ public class EmployeeSalary extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(EmployeeSalary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Employee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(EmployeeSalary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Employee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(EmployeeSalary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Employee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(EmployeeSalary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Employee.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
@@ -216,7 +228,7 @@ public class EmployeeSalary extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new EmployeeSalary().setVisible(true);
+                new Employee().setVisible(true);
             }
         });
     }
