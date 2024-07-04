@@ -23,17 +23,29 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+=======
+          <Component id="Default" alignment="0" max="32767" attributes="0"/>
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+=======
+          <Component id="Default" max="32767" attributes="0"/>
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
+<<<<<<< HEAD
     <Container class="javax.swing.JPanel" name="jPanel1">
+=======
+    <Container class="javax.swing.JPanel" name="Default">
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -43,19 +55,86 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   <Component id="Name" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="807" max="32767" attributes="0"/>
+=======
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Overview" min="-2" max="-2" attributes="0"/>
+                      <Component id="Home" min="-2" max="-2" attributes="0"/>
+                      <Component id="Management" min="-2" max="-2" attributes="0"/>
+                      <Component id="Profile" min="-2" max="-2" attributes="0"/>
+                      <Component id="Employee" min="-2" max="-2" attributes="0"/>
+                      <Component id="Request" min="-2" max="-2" attributes="0"/>
+                      <Component id="Salary" min="-2" max="-2" attributes="0"/>
+                      <Component id="Attendance" min="-2" max="-2" attributes="0"/>
+                      <Component id="Time" min="-2" max="-2" attributes="0"/>
+                      <Component id="Record" min="-2" max="-2" attributes="0"/>
+                      <Component id="Leave" min="-2" max="-2" attributes="0"/>
+                      <Component id="Overtime" min="-2" max="-2" attributes="0"/>
+                      <Component id="Payslip" min="-2" max="-2" attributes="0"/>
+                      <Component id="Generate" min="-2" max="-2" attributes="0"/>
+                      <Component id="Exit" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Name" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="675" max="32767" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   <Component id="Name" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="552" max="32767" attributes="0"/>
+=======
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Name" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Component id="Overview" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Home" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
+                  <Component id="Management" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Profile" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Employee" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Request" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Salary" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                  <Component id="Attendance" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Time" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Record" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Leave" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Overtime" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                  <Component id="Payslip" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                  <Component id="Generate" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                  <Component id="Exit" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
               </Group>
           </Group>
         </DimensionLayout>
@@ -75,6 +154,137 @@
             <Property name="text" type="java.lang.String" value="Taylor Christian Tayengco"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
+=======
+        <Component class="javax.swing.JLabel" name="Overview">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Overview"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Home">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/house-window.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Home"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Management">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Management"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Profile">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/user.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Profile"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Employee">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/users.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Employee"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Attendance">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Attendance"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Time">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/clock-three.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Time In/Out"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Record">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/calendar-lines.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Record"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Leave">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/calendar-day.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Leave"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Overtime">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/calendar-clock.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Overtime"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Request">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/calendar-pen.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Request"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Payslip">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Payslip"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Generate">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/wallet-arrow.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Generate"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Salary">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/credit-card-buyer.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Payslip"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Exit">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Collaterals/exit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sign Out"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Employee Dashboard"/>
+          </Properties>
+        </Component>
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
       </SubComponents>
     </Container>
   </SubComponents>

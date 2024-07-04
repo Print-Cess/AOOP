@@ -11,7 +11,11 @@ package paysys;
 public class Overtime extends javax.swing.JFrame {
 
     /**
+<<<<<<< HEAD
      * Creates new form Overtime
+=======
+     * Creates new form Test
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
      */
     public Overtime() {
         initComponents();
@@ -26,17 +30,51 @@ public class Overtime extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+<<<<<<< HEAD
         jPanel1 = new javax.swing.JPanel();
         Name = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+=======
+        Default = new javax.swing.JPanel();
+        Name = new javax.swing.JLabel();
+        Overview = new javax.swing.JLabel();
+        Home = new javax.swing.JLabel();
+        Management = new javax.swing.JLabel();
+        Profile = new javax.swing.JLabel();
+        Employee = new javax.swing.JLabel();
+        Attendance = new javax.swing.JLabel();
+        Time = new javax.swing.JLabel();
+        Record = new javax.swing.JLabel();
+        Leave = new javax.swing.JLabel();
+        Overtime = new javax.swing.JLabel();
+        Request = new javax.swing.JLabel();
+        Payslip = new javax.swing.JLabel();
+        Generate = new javax.swing.JLabel();
+        Salary = new javax.swing.JLabel();
+        Exit = new javax.swing.JLabel();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        HomeTab = new javax.swing.JPanel();
+        Statistics = new javax.swing.JPanel();
+        Expenses = new javax.swing.JPanel();
+        Products = new javax.swing.JPanel();
+        TotalEmployee = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        Default.setBackground(new java.awt.Color(255, 255, 255));
+        Default.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
 
         Name.setBackground(new java.awt.Color(104, 107, 122));
         Name.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         Name.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/profile.png"))); // NOI18N
         Name.setText("Taylor Christian Tayengco");
+<<<<<<< HEAD
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -55,15 +93,188 @@ public class Overtime extends javax.swing.JFrame {
                 .addContainerGap(552, Short.MAX_VALUE))
         );
 
+=======
+        Default.add(Name, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 14, -1, -1));
+
+        Overview.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        Overview.setText("Overview");
+        Default.add(Overview, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 58, -1, -1));
+
+        Home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/house-window.png"))); // NOI18N
+        Home.setText("Home");
+        Default.add(Home, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 86, -1, -1));
+
+        Management.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        Management.setText("Management");
+        Default.add(Management, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 132, -1, -1));
+
+        Profile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/user.png"))); // NOI18N
+        Profile.setText("Profile");
+        Default.add(Profile, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 160, -1, -1));
+
+        Employee.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/users.png"))); // NOI18N
+        Employee.setText("Employee");
+        Default.add(Employee, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 196, -1, -1));
+
+        Attendance.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        Attendance.setText("Attendance");
+        Default.add(Attendance, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 310, -1, -1));
+
+        Time.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/clock-three.png"))); // NOI18N
+        Time.setText("Time In/Out");
+        Default.add(Time, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 338, -1, -1));
+
+        Record.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/calendar-lines.png"))); // NOI18N
+        Record.setText("Record");
+        Default.add(Record, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 374, -1, -1));
+
+        Leave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/calendar-day.png"))); // NOI18N
+        Leave.setText("Leave");
+        Default.add(Leave, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 410, -1, -1));
+
+        Overtime.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/calendar-clock.png"))); // NOI18N
+        Overtime.setText("Overtime");
+        Default.add(Overtime, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 446, -1, -1));
+
+        Request.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/calendar-pen.png"))); // NOI18N
+        Request.setText("Request");
+        Default.add(Request, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 232, -1, -1));
+
+        Payslip.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        Payslip.setText("Payslip");
+        Default.add(Payslip, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 488, -1, -1));
+
+        Generate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/wallet-arrow.png"))); // NOI18N
+        Generate.setText("Generate");
+        Default.add(Generate, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 516, -1, -1));
+
+        Salary.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/credit-card-buyer.png"))); // NOI18N
+        Salary.setText("Payslip");
+        Default.add(Salary, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 268, -1, -1));
+
+        Exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Collaterals/exit.png"))); // NOI18N
+        Exit.setText("Sign Out");
+        Default.add(Exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 558, -1, -1));
+
+        jTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
+
+        HomeTab.setBackground(new java.awt.Color(255, 255, 255));
+        HomeTab.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Statistics.setBackground(new java.awt.Color(178, 214, 170));
+
+        javax.swing.GroupLayout StatisticsLayout = new javax.swing.GroupLayout(Statistics);
+        Statistics.setLayout(StatisticsLayout);
+        StatisticsLayout.setHorizontalGroup(
+            StatisticsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 740, Short.MAX_VALUE)
+        );
+        StatisticsLayout.setVerticalGroup(
+            StatisticsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 370, Short.MAX_VALUE)
+        );
+
+        HomeTab.add(Statistics, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 740, 370));
+
+        Expenses.setBackground(new java.awt.Color(172, 179, 234));
+
+        javax.swing.GroupLayout ExpensesLayout = new javax.swing.GroupLayout(Expenses);
+        Expenses.setLayout(ExpensesLayout);
+        ExpensesLayout.setHorizontalGroup(
+            ExpensesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 200, Short.MAX_VALUE)
+        );
+        ExpensesLayout.setVerticalGroup(
+            ExpensesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        HomeTab.add(Expenses, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 20, -1, -1));
+
+        Products.setBackground(new java.awt.Color(234, 231, 170));
+
+        javax.swing.GroupLayout ProductsLayout = new javax.swing.GroupLayout(Products);
+        Products.setLayout(ProductsLayout);
+        ProductsLayout.setHorizontalGroup(
+            ProductsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 200, Short.MAX_VALUE)
+        );
+        ProductsLayout.setVerticalGroup(
+            ProductsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        HomeTab.add(Products, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, -1, -1));
+
+        TotalEmployee.setBackground(new java.awt.Color(229, 169, 169));
+
+        javax.swing.GroupLayout TotalEmployeeLayout = new javax.swing.GroupLayout(TotalEmployee);
+        TotalEmployee.setLayout(TotalEmployeeLayout);
+        TotalEmployeeLayout.setHorizontalGroup(
+            TotalEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 187, Short.MAX_VALUE)
+        );
+        TotalEmployeeLayout.setVerticalGroup(
+            TotalEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 108, Short.MAX_VALUE)
+        );
+
+        HomeTab.add(TotalEmployee, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
+
+        jTabbedPane1.addTab("tab1", HomeTab);
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 779, Short.MAX_VALUE)
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 565, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("tab2", jPanel2);
+
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 779, Short.MAX_VALUE)
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 565, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("tab3", jPanel3);
+
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(Default, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTabbedPane1))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(Default, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jTabbedPane1)
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         );
 
         pack();
@@ -95,6 +306,12 @@ public class Overtime extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+<<<<<<< HEAD
+=======
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -105,7 +322,35 @@ public class Overtime extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JLabel Name;
     private javax.swing.JPanel jPanel1;
+=======
+    private javax.swing.JLabel Attendance;
+    private javax.swing.JPanel Default;
+    private javax.swing.JLabel Employee;
+    private javax.swing.JLabel Exit;
+    private javax.swing.JPanel Expenses;
+    private javax.swing.JLabel Generate;
+    private javax.swing.JLabel Home;
+    private javax.swing.JPanel HomeTab;
+    private javax.swing.JLabel Leave;
+    private javax.swing.JLabel Management;
+    private javax.swing.JLabel Name;
+    private javax.swing.JLabel Overtime;
+    private javax.swing.JLabel Overview;
+    private javax.swing.JLabel Payslip;
+    private javax.swing.JPanel Products;
+    private javax.swing.JLabel Profile;
+    private javax.swing.JLabel Record;
+    private javax.swing.JLabel Request;
+    private javax.swing.JLabel Salary;
+    private javax.swing.JPanel Statistics;
+    private javax.swing.JLabel Time;
+    private javax.swing.JPanel TotalEmployee;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JTabbedPane jTabbedPane1;
+>>>>>>> parent of 63c47a3 (Revert "WSIWYG")
     // End of variables declaration//GEN-END:variables
 }
