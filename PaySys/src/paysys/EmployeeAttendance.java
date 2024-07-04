@@ -14,14 +14,14 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Seirrah
  */
-public final class Attendance extends javax.swing.JFrame {
+public final class EmployeeAttendance extends javax.swing.JFrame {
     private Connection Connect;
     private PreparedStatement Text;
     /**
      * Creates new form EmployeeAttendance
      * @throws java.sql.SQLException
      */
-    public Attendance() throws SQLException {
+    public EmployeeAttendance() throws SQLException {
         initComponents();
         DatabaseConnection();
         ShowAttendanceTable();
@@ -36,7 +36,7 @@ public final class Attendance extends javax.swing.JFrame {
         try {
             Connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrollsystem_db", "root" , "092403");
         } catch (SQLException ex) {
-            Logger.getLogger(Attendance.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EmployeeAttendance.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }
@@ -63,7 +63,7 @@ public final class Attendance extends javax.swing.JFrame {
             }  
         }
             catch(SQLException e){
-                Logger.getLogger(Attendance.class.getName()).log(Level.SEVERE, null, e);
+                Logger.getLogger(EmployeeAttendance.class.getName()).log(Level.SEVERE, null, e);
         }
     }
     
@@ -230,7 +230,7 @@ public final class Attendance extends javax.swing.JFrame {
                             .addComponent(Payslip)
                             .addComponent(Generate)
                             .addComponent(Exit))
-                        .addGap(75, 75, 75)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
                         .addGroup(DefaultLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(DefaultLayout.createSequentialGroup()
                                 .addComponent(EmployeeNumber)
@@ -250,7 +250,7 @@ public final class Attendance extends javax.swing.JFrame {
         DefaultLayout.setVerticalGroup(
             DefaultLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(DefaultLayout.createSequentialGroup()
-                .addGap(21, 21, 21)
+                .addGap(16, 16, 16)
                 .addGroup(DefaultLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Name)
                     .addComponent(jLabel1))
@@ -260,7 +260,7 @@ public final class Attendance extends javax.swing.JFrame {
                         .addComponent(Overview)
                         .addGap(12, 12, 12)
                         .addComponent(Home)
-                        .addGap(18, 18, 18)
+                        .addGap(22, 22, 22)
                         .addComponent(Management)
                         .addGap(12, 12, 12)
                         .addComponent(Profile)
@@ -284,7 +284,7 @@ public final class Attendance extends javax.swing.JFrame {
                         .addComponent(Payslip)
                         .addGap(12, 12, 12)
                         .addComponent(Generate)
-                        .addGap(12, 12, 12)
+                        .addGap(18, 18, 18)
                         .addComponent(Exit))
                     .addGroup(DefaultLayout.createSequentialGroup()
                         .addGroup(DefaultLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -294,7 +294,7 @@ public final class Attendance extends javax.swing.JFrame {
                                 .addComponent(AllAttendance)))
                         .addGap(18, 18, 18)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 445, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(16, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -345,7 +345,7 @@ public final class Attendance extends javax.swing.JFrame {
                 }
             } catch (SQLException e) {
                 // Log any SQL exceptions for debugging purposes
-                Logger.getLogger(Attendance.class.getName()).log(Level.SEVERE, null, e);
+                Logger.getLogger(EmployeeAttendance.class.getName()).log(Level.SEVERE, null, e);
                 System.out.println("SQL Exception: " + e.getMessage());
             }
         }
@@ -384,7 +384,7 @@ public final class Attendance extends javax.swing.JFrame {
 
         } catch (SQLException e) {
             // Log any SQL exceptions for debugging purposes
-            Logger.getLogger(Attendance.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(EmployeeAttendance.class.getName()).log(Level.SEVERE, null, e);
             System.out.println("SQL Exception: " + e.getMessage());
         }
     }//GEN-LAST:event_AllAttendanceActionPerformed
@@ -406,23 +406,22 @@ public final class Attendance extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Attendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EmployeeAttendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Attendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EmployeeAttendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Attendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EmployeeAttendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Attendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(EmployeeAttendance.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> {
             try {
-                new Attendance().setVisible(true);
+                new EmployeeAttendance().setVisible(true);
             } catch (SQLException ex) {
-                Logger.getLogger(Attendance.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(EmployeeAttendance.class.getName()).log(Level.SEVERE, null, ex);
             }
         });
     }
