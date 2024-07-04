@@ -21,7 +21,7 @@ public class PaySys {
     public static void main(String[] args) {
         // TODO code application logic here
         try{
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/payrolldb", "root",  "user123");
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/payrollsystem_db", "root",  "092403");
             Statement statement = con.createStatement(); 
             ResultSet RS = statement.executeQuery("select*from witholdingtaxmatrix");
             while (RS.next()) {

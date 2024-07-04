@@ -146,10 +146,18 @@ public class PaySys_Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void loginbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbtnActionPerformed
+<<<<<<< Updated upstream
         username = usernamefield.getText();
         password = String.valueOf(passwordfield.getPassword());
 
         try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/payrollsystem_db", "root", ""); Statement statement = con.createStatement()) {
+=======
+        // TODO add your handling code here:
+       username = usernamefield.getText();
+       password = String.valueOf(passwordfield.getPassword());
+        String Position;
+        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost/payrollsystem_db", "root", "092403"); Statement statement = con.createStatement()) {
+>>>>>>> Stashed changes
 
             // Prepare a parameterized query for login validation
             String sql = "SELECT * FROM login WHERE username = ? AND password = ?";
