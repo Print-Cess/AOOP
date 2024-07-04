@@ -23,41 +23,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
-=======
           <Component id="Default" alignment="0" max="32767" attributes="0"/>
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
-=======
-          <Component id="Default" alignment="0" max="32767" attributes="0"/>
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
-=======
           <Component id="Default" max="32767" attributes="0"/>
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
-=======
-          <Component id="Default" max="32767" attributes="0"/>
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <Container class="javax.swing.JPanel" name="jPanel1">
-=======
     <Container class="javax.swing.JPanel" name="Default">
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
-=======
-    <Container class="javax.swing.JPanel" name="Default">
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -67,19 +43,6 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <Component id="Name" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="807" max="32767" attributes="0"/>
-=======
-=======
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -105,28 +68,11 @@
                           <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-<<<<<<< HEAD
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
-=======
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                  <Component id="Name" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="484" max="32767" attributes="0"/>
-=======
-=======
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -163,10 +109,6 @@
                   <Component id="Generate" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
                   <Component id="Exit" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
-=======
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
               </Group>
           </Group>
         </DimensionLayout>
@@ -186,11 +128,6 @@
             <Property name="text" type="java.lang.String" value="Taylor Christian Tayengco"/>
           </Properties>
         </Component>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         <Component class="javax.swing.JLabel" name="Overview">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -311,29 +248,12 @@
             <Property name="text" type="java.lang.String" value="Sign Out"/>
           </Properties>
         </Component>
-<<<<<<< HEAD
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
-=======
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="12" style="1"/>
             </Property>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <Property name="text" type="java.lang.String" value="Leave Application Form"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Employee Identification (ID)"/>
-=======
             <Property name="text" type="java.lang.String" value="Employee Dashboard"/>
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
-=======
-            <Property name="text" type="java.lang.String" value="Employee Dashboard"/>
->>>>>>> parent of 63c47a3 (Revert "WSIWYG")
           </Properties>
         </Component>
       </SubComponents>

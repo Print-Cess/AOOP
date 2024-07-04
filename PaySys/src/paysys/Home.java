@@ -4,26 +4,21 @@
  */
 package paysys;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.UnsupportedLookAndFeelException;
+
 /**
  *
  * @author Seirrah
  */
-<<<<<<<< HEAD:PaySys/src/paysys/Home.java
 public class Home extends javax.swing.JFrame {
-========
+
 public class Overtime extends javax.swing.JFrame {
->>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
 
     /**
      * Creates new form Test
      */
-<<<<<<<< HEAD:PaySys/src/paysys/Home.java
-    public Home() {
-========
-    public Overtime() {
->>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
-        initComponents();
-    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -194,7 +189,7 @@ public class Overtime extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
+    public static void main(String args[]) throws InstantiationException {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -208,45 +203,22 @@ public class Overtime extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-<<<<<<<< HEAD:PaySys/src/paysys/Home.java
-            java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Home.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-========
-            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Overtime.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
->>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
+            Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (UnsupportedLookAndFeelException ex) {
+            Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
-<<<<<<<< HEAD:PaySys/src/paysys/Home.java
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
-========
->>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-<<<<<<<< HEAD:PaySys/src/paysys/Home.java
-                new Home().setVisible(true);
-========
-                new Overtime().setVisible(true);
->>>>>>>> parent of 63c47a3 (Revert "WSIWYG"):PaySys/src/paysys/Overtime.java
-            }
+        java.awt.EventQueue.invokeLater(() -> {
         });
     }
 
@@ -270,4 +242,5 @@ public class Overtime extends javax.swing.JFrame {
     private javax.swing.JLabel Time;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
+}
 }
